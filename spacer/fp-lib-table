@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PurpleDrop)(type KiCad)(uri /home/jeff/host/Dropbox/MISL/Projects/ElectrodeBoard/newhw/PD_ElectrodeBoard_v4/PurpleDrop.pretty)(options "")(descr ""))
+)
