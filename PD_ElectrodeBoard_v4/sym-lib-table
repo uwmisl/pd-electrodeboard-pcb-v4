@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Electrodes)(type Legacy)(uri ${KIPRJMOD}/../Electrodes.lib)(options "")(descr ""))
+  (lib (name PurpleDrop)(type Legacy)(uri ${KIPRJMOD}/PurpleDrop.lib)(options "")(descr ""))
+)
