@@ -18,22 +18,59 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x02
+# Connector_Generic_Conn_01x05
 #
-DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+DEF Connector_Generic_Conn_01x05 J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x05" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
+S -50 -195 0 -205 1 1 6 N
 S -50 -95 0 -105 1 1 6 N
 S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x08
+#
+DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
+F0 "J" 0 400 50 H V C CNN
+F1 "Connector_Generic_Conn_01x08" 0 -500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 350 50 -450 1 1 10 f
+X Pin_1 1 -200 300 150 R 50 50 1 1 P
+X Pin_2 2 -200 200 150 R 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 -200 0 150 R 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 -200 -200 150 R 50 50 1 1 P
+X Pin_7 7 -200 -300 150 R 50 50 1 1 P
+X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -180,27 +217,6 @@ X Pin_9 9 -200 1100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_US
-#
-DEF Device_R_US R 0 0 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Device_R_US" -100 0 50 V V C CNN
-F2 "" 40 -10 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -90 0 -100 N
-P 2 0 1 0 0 90 0 100 N
-P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
-P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
-P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Electrodes_DMFElectrode
 #
 DEF Electrodes_DMFElectrode E 0 0 N N 1 F N
@@ -231,32 +247,6 @@ X 2 2 -100 100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Electrodes_ReservoirB
-#
-DEF Electrodes_ReservoirB E 0 40 Y N 1 F N
-F0 "E" 0 0 50 H V C CNN
-F1 "Electrodes_ReservoirB" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S 50 875 100 825 0 1 0 N
-S 125 800 75 750 0 1 0 N
-S 125 875 250 825 0 1 0 N
-S 125 900 75 950 0 1 0 N
-P 2 0 1 0 0 850 50 850 N
-P 3 0 1 0 100 750 100 650 0 650 N
-P 3 0 1 0 200 750 200 550 0 550 N
-P 4 0 1 0 0 950 35 950 35 925 75 925 N
-P 5 0 1 0 187 825 187 812 30 812 30 750 0 750 N
-P 9 0 1 0 150 800 150 750 325 750 325 950 150 950 150 900 275 900 275 800 150 800 N
-X 1 1 -100 850 100 R 50 50 1 1 I
-X 2 2 -100 750 100 R 50 50 1 1 I
-X 3 3 -100 550 100 R 50 50 1 1 I
-X 4 4 -100 650 100 R 50 50 1 1 I
-X 5 5 -100 950 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Mechanical_MountingHole_Pad
 #
 DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
@@ -270,6 +260,21 @@ $ENDFPLIST
 DRAW
 C 0 50 50 0 1 50 N
 X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PurpleDrop_AprilTag
+#
+DEF PurpleDrop_AprilTag G 0 40 Y Y 1 F N
+F0 "G" 0 -150 50 H V C CNN
+F1 "PurpleDrop_AprilTag" 0 25 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -150 -100 -150 150 0 1 0 N
+S -150 150 150 150 0 1 0 N
+S 150 -100 -150 -100 0 1 0 N
+S 150 150 150 -100 0 1 0 N
 ENDDRAW
 ENDDEF
 #

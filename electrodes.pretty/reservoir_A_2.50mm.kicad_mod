@@ -1,5 +1,8 @@
-(module reservoir_A_2.50mm (layer F.Cu) (tedit 5E6177F5)
+(module reservoir_A_2.50mm (layer F.Cu) (tedit 5F6BE0A5)
   (descr "Reservoir A for 2.50mm pitch electrodes")
+  (fp_text reference REF** (at 0 -3) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (fp_text value DMFReservoir (at 1.5 3) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -13,13 +16,13 @@
          (xy -1.195 0.858511) (xy -0.686767 0.46853) (xy -0.686767 0.35147) (xy -1.652424 -0.41)
          (xy -1.195 -0.781489) (xy -1.195 -1.195)) (width 0.0001))
     ))
-  (pad 2 smd custom (at 6 0) (size 0.5 0.5) (layers F.Cu F.Mask F.Paste)
+  (pad 2 smd custom (at 6.75 0) (size 0.5 0.5) (layers F.Cu F.Mask F.Paste)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
-         (xy -3.195 1.195) (xy -3.195 0.858511) (xy -2.686767 0.46853) (xy -2.686767 0.35147)
-         (xy -3.652424 -0.41) (xy -3.195 -0.781489) (xy -3.195 -1.195) (xy -3.195 -1.305)
-         (xy -5.25 -1.305) (xy -5.25 -4.945) (xy 2.75 -4.945) (xy 2.75 4.945)
-         (xy -5.25 4.945) (xy -5.25 1.305) (xy -3.195 1.305)) (width 0.0001))
+         (xy -3.945 1.195) (xy -3.945 0.858511) (xy -3.436767 0.46853) (xy -3.436767 0.35147)
+         (xy -4.402424 -0.41) (xy -3.945 -0.781489) (xy -3.945 -1.195) (xy -3.945 -1.305)
+         (xy -6 -1.305) (xy -6 -4.945) (xy 3.5 -4.945) (xy 3.5 4.945)
+         (xy -6 4.945) (xy -6 1.305) (xy -3.945 1.305)) (width 0.0001))
     ))
 )
