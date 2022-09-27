@@ -35,6 +35,17 @@ This makes the process of experimenting with different electrode footprints and
 layouts easier. Once the electrodes are positioned, the routing to the connectors
 is done manually.
 
+## BOM
+
+| Part Number | Mfg | RefDes | Description | Qty |
+| ----------- | --- | ------ | ----------- | --- |
+| CLP-132-02-F-D-A  | Samtec | J1,J2  | 64-pin connectors      | 2   |
+| 4929 | Keystone | H1-4 | #2-56 solderable threaded insert | 4 |
+| PWR163S-25-25R0FE | Bourns | R1-4 | 25W resistor for heating | 4 |
+| ZNI1000TA | Diodes Inc. | T1-4 | 1kohm RTD temperature sensor | 4 |
+| S5B-PH-SM4-TB | JST | J3 | 5-pin connector for heaters | 1 |
+| S8B-PH-SM4-TB | JST | J4 | 8-pin connector for RTDs | 1 |
+
 ## Revision History
 
 ### Version 4.1
